@@ -12,7 +12,7 @@ class Renegade:
         return f"{self.first_name} {self.last_name}"
 
 
-selection = input("Press 1 for new Renegade")
+selection = input("Press 1 for new Renegade: ")
 if selection == 1:
     user_name = input("Renegade, please enter a username: ")
     print(f"Thank you, {user_name}")
